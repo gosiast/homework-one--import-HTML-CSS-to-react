@@ -1,0 +1,59 @@
+.weather-app-wrapper {
+	max-width: 600px;
+	margin: 30px auto;
+}
+.weather-app {
+	background-color: white;
+	font-family: "Merienda One", cursive;
+	padding: 25px;
+	border: 1px solid #dadde1;
+	border-radius: 15px;
+}
+
+.overview {
+	margin-bottom: 20px;
+}
+
+.weather-temperature img {
+	margin-right: 15px;
+	margin-top: -10px;
+	height: 84px;
+	width: 84px;
+}
+.weather-temperature strong {
+	color: rgb(3, 3, 3);
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 1;
+}
+.weather-temperature .units {
+	position: relative;
+	font-size: 16px;
+	top: -32px;
+}
+a {
+	text-decoration: none;
+}
+
+.weather-temperature .active {
+	color: black;
+	cursor: default;
+}
+
+.weather-temperature .active:hover {
+	text-decoration: none;
+}
+
+.weather-forecast {
+	margin-top: 25px;
+	text-align: center;
+	color: #000000;
+}
+
+.weather-forecast-date {
+	font-size: 17px;
+}
+.weather-forecast-temperatures {
+	font-size: 15px;
+	opacity: 0.7;
+}
